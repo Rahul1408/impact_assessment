@@ -1,0 +1,2338 @@
+﻿{
+	"root": {
+		"Environment": [{
+				"Name": "Dev",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [{
+							"Database": "dev1005",
+							"Server": "nilgiri.am.lilly.com",	
+							"Port":"1531",						
+							"Schema": [{
+									"Name": "GCO_OWNER"
+								},
+								{
+									"Name": "GCO_OWNER2"
+								},
+								{
+									"Name": "GCO_OWNER3"
+								},
+								{
+									"Name": "GCO_OWNER4"
+								},
+								{
+									"Name": "ACT_OWNER"
+								},								
+								{
+									"Name": "GCO_PROCS"
+								},
+								{
+									"Name": "ADM_OWNER"
+								},
+								{
+									"Name": "ADM_PROCS"
+								},
+								{
+									"Name": "ADS_OWNER"
+								},
+								{
+									"Name": "ADS_PROCS"
+								},								
+								{
+									"Name": "AHS_OWNER"
+								},
+								{
+									"Name": "AHS_PROCS"
+								},
+								{
+									"Name": "ARS_OWNER"
+								},
+								{
+									"Name": "ARS_PROCS"
+								},
+								{
+									"Name": "GEO_OWNER"
+								},
+								{
+									"Name": "GEO_PROCS"
+								},								
+								{
+									"Name": "IDS_OWNER"
+								},
+								{
+									"Name": "IDS_PROCS"
+								},
+								{
+									"Name": "SUB_AODS_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER_REP"
+								},
+								{
+									"Name": "GAIP_OWNER"
+								}
+								,
+								{
+									"Name": "AVA_OWNER"
+								},
+								{
+									"Name": "CMP_OWNER"
+								},
+								{
+									"Name": "ACT_ARC_OWNER"
+								},						
+								{
+									"Name": "AMT_PROCS"
+								},
+								{
+									"Name": "AMT_OWNER"
+								},
+								{
+									"Name": "MTM_Owner"
+								},
+								{
+									"Name": "MTM_Owner2"
+								},
+								{
+									"Name": "MTM_Owner3"
+								},
+								{
+									"Name": "MTM_Owner4"
+								},
+								{
+									"Name": "MTM_ODS_OWNER"
+								},
+								{
+									"Name": "Idp_owner"
+								},
+								{
+									"Name": "Iva_owner"
+								},
+								{
+									"Name": "Iva_procs"
+								}
+
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "GCCP",
+							"Server": "ix1consql12.am.lilly.com",	
+							"Port":"1531",						
+							"Schema": [{
+									"Name": "dbo"
+								},
+								{
+									"Name": "cdc"
+								}
+								
+								
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "GCCP_Arch",
+							"Server": "ix1consql12.am.lilly.com",	
+							"Port":"1531",						
+							"Schema": [{
+									"Name": "dbo"
+								},
+								{
+									"Name": "cdc"
+								}
+								
+								
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "DEV3650",
+							"Server": "jelxdb15.ap.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "ADT_OWNER"
+								},
+								{
+									"Name": "ADT_INF_USER"
+								},
+								{
+									"Name": "JCAE_OWNER"
+								},
+								{
+									"Name": "JCAE_INF_USER"
+								},
+								{
+									"Name": "JCAE_RPT_OWNER"
+								},
+								{
+									"Name": "JCAE_USER"
+								},
+								{
+									"Name": "JCOP_INF_USER"
+								},
+								{
+									"Name": "JCOP_STG_OWNER"
+								},
+								{
+									"Name": "JCOP_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_USER"
+								},
+								{
+									"Name": "JDWH_CIL_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_INF_USER"
+								},
+								{
+									"Name": "JDWH_DRESS_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_INF_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_INF_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_TBL_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_RPT_OWNER"
+								},
+								{
+									"Name": "JDWH_INF_USER"
+								},
+								{
+									"Name": "JDWH_JDP_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_INF_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_PROCS"
+								},
+								{
+									"Name": "JDWH_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_INF_USER"
+								},
+								{
+									"Name": "JDWH_OWNER"
+								},
+								{
+									"Name": "JDWH_PROCS"
+								},
+								{
+									"Name": "JDWH_RPA_OWNER"
+								},
+								{
+									"Name": "JDWH_SORP_INF_USER"
+								},
+								{
+									"Name": "JDWH_SORP_BO_USER"
+								},
+								{
+									"Name": "JDWH_SORP_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_INF_USER"
+								},
+								{
+									"Name": "JDWH_STG_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_PROCS"
+								},
+								{
+									"Name": "JDWH_TBL_USER"
+								},
+								{
+									"Name": "JDWH_USER"
+								},
+								{
+									"Name": "JDWH_WSR_INF_USER"
+								},
+								{
+									"Name": "JDWH_WSR_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_INF_USER"
+								},
+								{
+									"Name": "JDWH_WTAS_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_PROCS"
+								},
+								{
+									"Name": "JEDWH"
+								},
+								{
+									"Name": "WSRUSER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DEV568",
+							"Server": "chippewa.am.lilly.com",
+							"Port":"1521",							
+							"Schema": [{
+									"Name": "TRD_OWNER"
+								},
+								{
+									"Name": "FIN_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "GCCP_RPT_HUB",
+							"Server": "ix1consql12.am.lilly.com",	
+							"Port":"1531",						
+							"Schema": [{
+									"Name": "dbo"
+								},
+								{
+									"Name": "cdc"
+								}
+								
+								
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "DEV167",
+							"Server": "danforth.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "DW_OWNER"
+								},
+								{
+									"Name": "DW_PROCS"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DEV1007",
+							"Server": "cheetahdev02.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "WHSUSR"
+								},
+								{
+									"Name": "TRANSDATA"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "dev287",
+							"Server": "mohawk.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "IDS_OWNER"
+							}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "dev384",
+							"Server": "crow.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "AVA_OWNER"
+								}
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DEV1364",
+							"Server": "yorh36.ema.lilly.com",
+							"Port":"1544",							
+							"Schema": [{
+									"Name": "XFMKTSERVICE"
+								},
+								{
+									"Name": "SFP_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DEV1603",
+							"Server": "yorh36.ema.lilly.com",
+							"Port":"1544",							
+							"Schema": [{
+									"Name": "UKCOPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DEV902",
+							"Server": "koothrappli.xh1.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "nitro_uk_zyp"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "SBX494",
+							"Server": "wea.am.lilly.com",							
+							"Port":"1528",
+							"Schema": [{
+									"Name": "MDM_OWNER"
+								},
+								{
+									"Name": "CAS_OWNER"
+								},
+								{
+									"Name": "PVS_OWNER"
+								},
+								{
+									"Name": "CON_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DITNZDEV1",
+							"DatabaseValue":"System",
+							"Server": "DITNZDEV1",							
+							"Schema": [{
+									"Name": "PDM_MVR"
+								},{
+									"Name": "PIL"
+
+								},
+								{
+									"Name": "PDM_BOT"
+
+								},
+								{
+									"Name": "PDM_CBR"
+
+								},								
+								{
+									"Name": "PDM_MLR"
+
+								},
+								{
+									"Name": "PDM_PHX"
+
+								},
+								{
+									"Name": "PDM_PLOT"
+
+								},
+								{
+									"Name": "PDM_PYR"
+
+								},
+								{
+									"Name": "PDM_SCA"
+
+								},
+								{
+									"Name": "PDM_VAL"
+
+								},
+								{
+								"Name":"PDM_PRFT"
+								},
+								{
+									"Name": "PSA_CARS"
+
+								},
+								{
+									"Name": "PSA_MLR"
+
+								},
+								{
+									"Name": "PSA_PYR"
+
+								},
+								{
+									"Name": "PSA_SDA"
+
+								},
+								{
+									"Name": "PSA_VAL"
+
+								},
+								{
+									"Name": "PSL"
+
+								},
+								{
+									"Name": "PSL_PA"
+
+								},
+								{
+									"Name": "SYSTEM"
+
+								},
+								{
+									"Name": "PDM_EUREKA_Z1"
+								},
+								{
+									"Name": "ASL"
+								},
+								{
+									"Name": "ASL_EX"
+								},								
+								{
+									"Name": "PDM_EUREKA_Z2"
+								},
+								{
+									"Name": "PDM_EUREKA_Z3"
+								},
+								{
+									"Name": "PDM_GBR_Z1"
+								},
+								{
+									"Name": "PDM_GBR_Z2"
+								},
+								{
+									"Name": "PDM_GBR_Z3"
+								},
+								{
+									"Name": "PSM_USSOR"
+								},
+								{
+									"Name": "PDM_BR"
+								},
+								{
+									"Name": "PSA_FLEX"
+								},
+								{
+									"Name": "PSA_PLOT"
+								}
+								
+																																
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "dev690",
+							"Server": "ic1twcmdev.am.lilly.com",	
+							"Port":"1531",						
+							"Schema": [{
+									"Name": "TLA_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "dev735",
+							"Server": "seneca.am.lilly.com",	
+							"Port":"1532",						
+							"Schema": [{
+									"Name": "GPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},{
+							"Database": "dev765",
+							"Server": "chippewa.am.lilly.com",							
+							"Port":"1531",
+							"Schema": [{
+									"Name": "rfa_owner"
+								},
+								{
+									"Name": "rfo_owner"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "dev438",
+							"Server": "weatherby.am.lilly.com",		
+							"Port":"1530",					
+							"Schema": [{
+									"Name": "ERH_PROCS"
+								},
+								{
+									"Name": "ERH_OWNER"
+								},
+								{
+									"Name": "FNSH_PROCS"
+								},
+								{
+									"Name": "FNSH_OWNER"
+								},
+								{
+									"Name": "APH_PROCS"
+								},
+								{
+									"Name": "APH_OWNER"
+								},
+								{
+								"Name":"BOBSM_OWNER"
+								}
+
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "dev624",
+							"Server": "haida.am.lilly.com",		
+							"Port":"1531",					
+							"Schema": [{
+									"Name": "GSO1_Owner"
+								},
+								{
+									"Name": "CRML1_OWNER"
+								}
+								,		
+								{
+									"Name": "CRMCN_OWNER"
+								},
+								{
+									"Name": "CRML5_OWNER"
+								},
+								{
+									"Name": "CRML3_OWNER"
+								},
+								{
+									"Name": "CRML6_OWNER"
+								},
+								{
+									"Name": "CRML4_OWNER"
+								}												
+							],
+							"Type": "Oracle"
+						}
+						
+						]
+					}
+					
+				]
+
+			},
+			{
+				"Name": "QA",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [
+						{
+							"Database": "GCCP",
+							"Server": "IX1GCCPQA01.AM.lilly.com",							
+							"Schema": [{
+									"Name": "dbo"
+									
+								},
+								{
+								"Name": "cdc"
+								}
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "TST568",
+							"Server": "kickapoo.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "TRD_OWNER"
+								},
+								{
+									"Name": "FIN_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						}, 
+						{
+							"Database": "GCCP_Arch",
+							"Server": "IX1GCCPQA01.AM.lilly.com",							
+							"Schema": [{
+									"Name": "dbo"
+									
+								},
+								{
+								"Name": "cdc"
+								}
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "TST3650",
+							"Server": "jelxdb16.ap.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "ADT_OWNER"
+								},
+								{
+									"Name": "ADT_INF_USER"
+								},
+								{
+									"Name": "JCAE_OWNER"
+								},
+								{
+									"Name": "JCAE_INF_USER"
+								},
+								{
+									"Name": "JCAE_RPT_OWNER"
+								},
+								{
+									"Name": "JCAE_USER"
+								},
+								{
+									"Name": "JCOP_INF_USER"
+								},
+								{
+									"Name": "JCOP_STG_OWNER"
+								},
+								{
+									"Name": "JCOP_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_USER"
+								},
+								{
+									"Name": "JDWH_CIL_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_INF_USER"
+								},
+								{
+									"Name": "JDWH_DRESS_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_INF_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_INF_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_TBL_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_RPT_OWNER"
+								},
+								{
+									"Name": "JDWH_INF_USER"
+								},
+								{
+									"Name": "JDWH_JDP_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_INF_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_PROCS"
+								},
+								{
+									"Name": "JDWH_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_INF_USER"
+								},
+								{
+									"Name": "JDWH_OWNER"
+								},
+								{
+									"Name": "JDWH_PROCS"
+								},
+								{
+									"Name": "JDWH_RPA_OWNER"
+								},
+								{
+									"Name": "JDWH_SORP_INF_USER"
+								},
+								{
+									"Name": "JDWH_SORP_BO_USER"
+								},
+								{
+									"Name": "JDWH_SORP_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_INF_USER"
+								},
+								{
+									"Name": "JDWH_STG_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_PROCS"
+								},
+								{
+									"Name": "JDWH_TBL_USER"
+								},
+								{
+									"Name": "JDWH_USER"
+								},
+								{
+									"Name": "JDWH_WSR_INF_USER"
+								},
+								{
+									"Name": "JDWH_WSR_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_INF_USER"
+								},
+								{
+									"Name": "JDWH_WTAS_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_PROCS"
+								},
+								{
+									"Name": "JEDWH"
+								},
+								{
+									"Name": "WSRUSER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "DITNZQA1",
+							"DatabaseValue":"System",
+							"Server": "DITNZQA1",							
+							"Schema": [{
+									"Name": "PDM_MVR"
+								},{
+									"Name": "PIL"
+
+								},
+								{
+									"Name": "PDM_BOT"
+
+								},
+								{
+									"Name": "PDM_CBR"
+
+								},								
+								{
+									"Name": "PDM_MLR"
+
+								},
+								{
+									"Name": "PDM_PHX"
+
+								},
+								{
+									"Name": "PDM_PLOT"
+
+								},
+								{
+									"Name": "PDM_PYR"
+
+								},
+								{
+									"Name": "PDM_SCA"
+
+								},
+								{
+									"Name": "PDM_VAL"
+
+								},
+								{
+								"Name":"PDM_PRFT"
+								},
+								{
+									"Name": "PSA_CARS"
+
+								},
+								{
+									"Name": "PSA_MLR"
+
+								},
+								{
+									"Name": "PSA_PYR"
+
+								},
+								{
+									"Name": "PSA_SDA"
+
+								},
+								{
+									"Name": "PSA_VAL"
+
+								},
+								{
+									"Name": "PSL"
+
+								},
+								{
+									"Name": "PSL_PA"
+
+								},
+								{
+									"Name": "SYSTEM"
+
+								},
+								{
+									"Name": "PDM_EUREKA_Z1"
+								},
+								{
+									"Name": "ASL"
+								},
+								{
+									"Name": "ASL_EX"
+								},								
+								{
+									"Name": "PDM_EUREKA_Z2"
+								},
+								{
+									"Name": "PDM_EUREKA_Z3"
+								},
+								{
+									"Name": "PDM_GBR_Z1"
+								},
+								{
+									"Name": "PDM_GBR_Z2"
+								},
+								{
+									"Name": "PDM_GBR_Z3"
+								},
+								{
+									"Name": "PSM_USSOR"
+								},
+								{
+									"Name": "PDM_BR"
+								},
+								{
+									"Name": "PSA_FLEX"
+								},
+								{
+									"Name": "PSA_PLOT"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "AFSPDAQ01",
+							"DatabaseValue":"System",
+							"Server": "AFSPDAQ01",							
+							"Schema": [{
+									"Name": "ADM_BR"
+								},{
+									"Name": "ADM_CBR"
+
+								},
+								{
+									"Name": "ADM_DBU"
+
+								},
+								{
+									"Name": "ADM_MRKTNG"
+
+								},								
+								{
+									"Name": "ADM_OBU"
+
+								},
+								{
+									"Name": "ADM_PR"
+
+								},
+								{
+									"Name": "ADM_SPCLTY"
+
+								},
+								{
+									"Name": "ADM_SCA"
+
+								},
+								{
+									"Name": "ADM_VAL"
+
+								},
+								{
+									"Name": "ADQ"
+
+								},
+								{
+								"Name":"AFL"
+								},
+								{
+									"Name": "ASL"
+
+								},
+								{
+									"Name": "ASTG"
+
+								},
+								{
+									"Name": "DBA_BACKUP"
+
+								},
+								{
+									"Name": "INZA"
+
+								},
+								{
+									"Name": "IRIS_MYACCESS"
+
+								},
+								{
+									"Name": "NZA"
+
+								},
+								{
+									"Name": "NZM"
+
+								},
+								{
+									"Name": "NZMSG"
+
+								},
+								{
+									"Name": "NZR"
+								},
+								{
+									"Name": "NZVERIFY"
+								},
+								{
+									"Name": "QHIST"
+								},								
+								{
+									"Name": "SQLEXT"
+								},
+								{
+									"Name": "SYSTEM"
+								},
+								{
+									"Name": "UTL_DB"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "tst690",
+							"Server": "ic1twcmtst.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "TLA_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "tst1006",
+							"Server": "cheetahqa01.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "WHSUSR"
+								},
+								{
+									"Name": "TRANSDATA"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "tst384",
+							"Server": "navajo.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "AVA_OWNER"
+								}
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "tst134",
+							"Server": "seminole.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "IDS_OWNER"
+								}
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "UAT167",
+							"Server": "danforth.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "DW_OWNER"
+								},
+								{
+									"Name": "DW_PROCS"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD1155",
+							"Server": "xfvcs10.ema.lilly.com",
+							"Port":"1522",							
+							"Schema": [{
+									"Name": "XFMKTSERVICE"
+								},
+								{
+									"Name": "SFP_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "TST1603",
+							"Server": "yorh37.ema.lilly.com",
+							"Port":"1561",							
+							"Schema": [{
+									"Name": "UKCOPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "TST902",
+							"Server": "koothrappli.xh1.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "nitro_uk_zyp"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "qar765",
+							"Server": "kickapoo.am.lilly.com",	
+							"Port":"1531",													
+							"Schema": [{
+									"Name": "rfa_owner"
+								},
+								{
+									"Name": "rfo_owner"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "stg494",
+							"Server": "ponca.am.lilly.com",	
+							"Port":"1530",													
+							"Schema": [{
+									"Name": "GPS_OWNER"
+								},
+								{
+									"Name": "MDM_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "QAR494",
+							"Server": "ponca.am.lilly.com",							
+							"Port":"1528",
+							"Schema": [{
+									"Name": "MDM_OWNER"
+								},
+								{
+									"Name": "CAS_OWNER"
+								},
+								{
+									"Name": "PVS_OWNER"
+								},
+								{
+									"Name": "CON_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "qar438",
+							"Server": "accumark.am.lilly.com",	
+							"Port":"1530",													
+							"Schema": [
+								{
+									"Name": "ERH_OWNER"
+								},								
+								{
+									"Name": "FNSH_OWNER"
+								},								
+								{
+									"Name": "APH_OWNER"
+								},
+								{
+								"Name":"BOBSM_OWNER"
+								}
+
+
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "qar735",
+							"Server": "yaqui.am.lilly.com",
+							"Port":"1532",														
+							"Schema": [{
+									"Name": "GPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "tst624",
+							"Server": "yuki.am.lilly.com",	
+							"Port":"1530",													
+							"Schema": [{
+									"Name": "GSO1_Owner"
+								},
+								{
+									"Name": "CRML1_OWNER"
+								}
+								,		
+								{
+									"Name": "CRMCN_OWNER"
+								},
+								{
+									"Name": "CRML5_OWNER"
+								},
+								{
+									"Name": "CRML3_OWNER"
+								},
+								{
+									"Name": "CRML6_OWNER"
+								},
+								{
+									"Name": "CRML4_OWNER"
+								}								
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "tst1005",
+							"Server": "kamet.am.lilly.com",		
+							"Port":"1531",												
+							"Schema": [
+								{
+									"Name": "GCO_OWNER"
+								},
+								{
+									"Name": "GCO_OWNER2"
+								},
+								{
+									"Name": "GCO_OWNER3"
+								},
+								{
+									"Name": "GCO_OWNER4"
+								},
+								{
+									"Name": "ACT_OWNER"
+								},								
+								{
+									"Name": "GCO_PROCS"
+								},
+								{
+									"Name": "ADM_OWNER"
+								},
+								{
+									"Name": "ADM_PROCS"
+								},
+								{
+									"Name": "ADS_OWNER"
+								},
+								{
+									"Name": "ADS_PROCS"
+								},								
+								{
+									"Name": "AHS_OWNER"
+								},
+								{
+									"Name": "AHS_PROCS"
+								},
+								{
+									"Name": "ARS_OWNER"
+								},
+								{
+									"Name": "ARS_PROCS"
+								},
+								{
+									"Name": "GEO_OWNER"
+								},
+								{
+									"Name": "GEO_PROCS"
+								},								
+								{
+									"Name": "IDS_OWNER"
+								},
+								{
+									"Name": "IDS_PROCS"
+								},
+								{
+									"Name": "SUB_AODS_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER_REP"
+								},
+								{
+									"Name": "GAIP_OWNER"
+								},
+								{
+									"Name": "AVA_OWNER"
+								},
+								{
+									"Name": "CMP_OWNER"
+								},
+								{
+									"Name": "ACT_ARC_OWNER"
+								},
+								{
+									"Name": "AMT_PROCS"
+								},
+								{
+									"Name": "AMT_OWNER"
+								},
+								{
+									"Name": "MTM_Owner"
+								},
+								{
+									"Name": "MTM_Owner2"
+								},
+								{
+									"Name": "MTM_Owner3"
+								},								
+								{
+									"Name": "MTM_ODS_OWNER"
+								},
+								{
+									"Name": "Idp_owner"
+								},
+								{
+									"Name": "Iva_owner"
+								}
+								
+								
+							],
+							"Type": "Oracle"
+						}
+						
+						]
+					}
+					
+				]
+
+			},
+			{
+				"Name": "Prod",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [{
+							"Database": "GCCP",
+							"Server": "IX1GCCPHAPRD.AM.lilly.com",							
+							"Schema": [{
+									"Name": "dbo"
+								},
+								{
+									"Name": "cdc"
+								}
+							],
+							"Type": "SQL"
+						},
+						{
+							"Database": "GCCP_Arch",
+							"Server": "IX1GCCPHAPRD.AM.lilly.com",							
+							"Schema": [{
+									"Name": "dbo"
+								},
+								{
+									"Name": "cdc"
+								}
+							],
+							"Type": "SQL"
+						}, 
+						{
+							"Database": "AFSPDAP01",
+							"DatabaseValue":"System",
+							"Server": "AFSPDAQ01",							
+							"Schema": [{
+									"Name": "ADM_BR"
+								},{
+									"Name": "ADM_CBR"
+
+								},
+								{
+									"Name": "ADM_DBU"
+
+								},
+								{
+									"Name": "ADM_MRKTNG"
+
+								},								
+								{
+									"Name": "ADM_OBU"
+
+								},
+								{
+									"Name": "ADM_PR"
+
+								},
+								{
+									"Name": "ADM_SPCLTY"
+
+								},
+								{
+									"Name": "ADM_SCA"
+
+								},
+								{
+									"Name": "ADM_VAL"
+
+								},
+								{
+									"Name": "ADQ"
+
+								},
+								{
+								"Name":"AFL"
+								},
+								{
+									"Name": "ASL"
+
+								},
+								{
+									"Name": "ASTG"
+
+								},
+								{
+									"Name": "DBA_BACKUP"
+
+								},
+								{
+									"Name": "INZA"
+
+								},
+								{
+									"Name": "IRIS_MYACCESS"
+
+								},
+								{
+									"Name": "NZA"
+
+								},
+								{
+									"Name": "NZM"
+
+								},
+								{
+									"Name": "NZMSG"
+
+								},
+								{
+									"Name": "NZR"
+								},
+								{
+									"Name": "NZVERIFY"
+								},
+								{
+									"Name": "QHIST"
+								},								
+								{
+									"Name": "SQLEXT"
+								},
+								{
+									"Name": "SYSTEM"
+								},
+								{
+									"Name": "UTL_DB"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "AFSPDAP02",
+							"DatabaseValue":"System",
+							"Server": "AFSPDAQ01",							
+							"Schema": [{
+									"Name": "ADM_BR"
+								},{
+									"Name": "ADM_CBR"
+
+								},
+								{
+									"Name": "ADM_DBU"
+
+								},
+								{
+									"Name": "ADM_MRKTNG"
+
+								},								
+								{
+									"Name": "ADM_OBU"
+
+								},
+								{
+									"Name": "ADM_PR"
+
+								},
+								{
+									"Name": "ADM_SPCLTY"
+
+								},
+								{
+									"Name": "ADM_SCA"
+
+								},
+								{
+									"Name": "ADM_VAL"
+
+								},
+								{
+									"Name": "ADQ"
+
+								},
+								{
+								"Name":"AFL"
+								},
+								{
+									"Name": "ASL"
+
+								},
+								{
+									"Name": "ASTG"
+
+								},
+								{
+									"Name": "DBA_BACKUP"
+
+								},
+								{
+									"Name": "INZA"
+
+								},
+								{
+									"Name": "IRIS_MYACCESS"
+
+								},
+								{
+									"Name": "NZA"
+
+								},
+								{
+									"Name": "NZM"
+
+								},
+								{
+									"Name": "NZMSG"
+
+								},
+								{
+									"Name": "NZR"
+								},
+								{
+									"Name": "NZVERIFY"
+								},
+								{
+									"Name": "QHIST"
+								},								
+								{
+									"Name": "SQLEXT"
+								},
+								{
+									"Name": "SYSTEM"
+								},
+								{
+									"Name": "UTL_DB"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "DITNZPRD1",
+							"DatabaseValue":"System",
+							"Server": "DITNZPRD1",							
+							"Schema": [{
+									"Name": "PDM_MVR"
+								},{
+									"Name": "PIL"
+
+								},
+								{
+									"Name": "PDM_BOT"
+
+								},
+								{
+									"Name": "PDM_CBR"
+
+								},								
+								{
+									"Name": "PDM_MLR"
+
+								},
+								{
+									"Name": "PDM_PHX"
+
+								},
+								{
+									"Name": "PDM_PLOT"
+
+								},
+								{
+									"Name": "PDM_PYR"
+
+								},
+								{
+									"Name": "PDM_SCA"
+
+								},
+								{
+									"Name": "PDM_VAL"
+
+								},
+								{
+								"Name":"PDM_PRFT"
+								},
+								{
+									"Name": "PSA_CARS"
+
+								},
+								{
+									"Name": "PSA_MLR"
+
+								},
+								{
+									"Name": "PSA_PYR"
+
+								},
+								{
+									"Name": "PSA_SDA"
+
+								},
+								{
+									"Name": "PSA_VAL"
+
+								},
+								{
+									"Name": "PSL"
+
+								},
+								{
+									"Name": "PSL_PA"
+
+								},
+								{
+									"Name": "SYSTEM"
+
+								},
+								{
+									"Name": "PDM_EUREKA_Z1"
+								},
+								{
+									"Name": "ASL"
+								},
+								{
+									"Name": "ASL_EX"
+								},								
+								{
+									"Name": "PDM_EUREKA_Z2"
+								},
+								{
+									"Name": "PDM_EUREKA_Z3"
+								},
+								{
+									"Name": "PDM_GBR_Z1"
+								},
+								{
+									"Name": "PDM_GBR_Z2"
+								},
+								{
+									"Name": "PDM_GBR_Z3"
+								},
+								{
+									"Name": "PSM_USSOR"
+								},
+								{
+									"Name": "PDM_BR"
+								},
+								{
+									"Name": "PSA_FLEX"
+								},
+								{
+									"Name": "PSA_PLOT"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "DITNZPRD2",
+							"DatabaseValue":"System",
+							"Server": "DITNZPRD2",							
+							"Schema": [{
+									"Name": "PDM_GBR_Z0"
+								},{
+									"Name": "PDM_GBR_Z1"
+								},
+								{
+									"Name": "PDM_GBR_Z2"
+								},
+								{
+									"Name": "PDM_GBR_Z3"
+								},
+								{
+									"Name": "GBR_CONFIG_Z0"
+								},
+								{
+									"Name": "GBR_CONFIG_Z1"
+								},
+								{
+									"Name": "GBR_CONFIG_Z2"
+								},
+								{
+									"Name": "GBR_CONFIG_Z3"
+								}
+							],
+							"Type": "Netezza"
+						},
+						{
+							"Database": "prd438",
+							"Server": "lazermark.am.lilly.com",	
+							"Port":"1530",													
+							"Schema": [
+								{
+									"Name": "ERH_OWNER"
+								},								
+								{
+									"Name": "FNSH_OWNER"
+								},								
+								{
+									"Name": "APH_OWNER"
+								},
+								{
+									"Name":"BOBSM_OWNER"
+								}
+
+							],
+							"Type": "Oracle"
+						},{
+							"Database": "prd735",
+							"Server": "pima.am.lilly.com",
+							"Port":"1532",														
+							"Schema": [{
+									"Name": "GPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd624",
+							"Server": "yuma.am.lilly.com",							
+							"Port":"1531",
+							"Schema": [{
+									"Name": "GSO1_Owner"
+								},
+								{
+									"Name": "CRML1_OWNER"
+								}
+								,		
+								{
+									"Name": "CRMCN_OWNER"
+								},
+								{
+									"Name": "CRML5_OWNER"
+								},
+								{
+									"Name": "CRML3_OWNER"
+								},
+								{
+									"Name": "CRML6_OWNER"
+								},
+								{
+									"Name": "CRML4_OWNER"
+								}								
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd765",
+							"Server": "blackfoot.am.lilly.com",							
+							"Port":"1531",
+							"Schema": [{
+									"Name": "rfa_owner"
+								},
+								{
+									"Name": "rfo_owner"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd494",
+							"Server": "pawnee.am.lilly.com",							
+							"Port":"1528",
+							"Schema": [{
+									"Name": "MDM_OWNER"
+								},
+								{
+									"Name": "CAS_OWNER"
+								},
+								{
+									"Name": "PVS_OWNER"
+								},
+								{
+									"Name": "CON_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd287",
+							"Server": "powhatan.am.lilly.com",		
+							"Port":"1531",					
+							"Schema": [{
+									"Name": "IDS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd300",
+							"Server": "lhprd300.am.lilly.com",
+							"Port":"1527",							
+							"Schema": [{
+									"Name": "WKF_SUB_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD167",
+							"Server": "birchmount.am.lilly.com",
+							"Port":"1525",							
+							"Schema": [{
+									"Name": "DW_OWNER"
+								},
+								{
+									"Name": "DW_PROCS"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD1155",
+							"Server": "xfvcs11.ema.lilly.com",
+							"Port":"1532",							
+							"Schema": [{
+									"Name": "XFMKTSERVICE"
+								},
+								{
+									"Name": "SFP_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD1603",
+							"Server": "yorh92.ema.lilly.com",
+							"Port":"1527",							
+							"Schema": [{
+									"Name": "UKCOPS_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd384",
+							"Server": "sioux.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "AVA_OWNER"
+								}
+								
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD902",
+							"Server": "penny.xh1.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "nitro_uk_zyp"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd1006",
+							"Server": "cheetahprd01.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "WHSUSR"
+								},
+								{
+									"Name": "TRANSDATA"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD3806",
+							"Server": "vanquish.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "IIP_ETL_OWNER"
+								},
+								{
+									"Name": "IIP_ETL_PROCS"
+								},
+								{
+									"Name": "IIP_ETL_USER"
+								},
+								{
+									"Name": "IIP_ODS_OWNER"
+								},
+								{
+									"Name": "IIP_ODS_PROCS"
+								},
+								{
+									"Name": "IIP_ODS_USER"
+								},
+								{
+									"Name": "IIP_PRST_OWNER"
+								},
+								{
+									"Name": "IIP_PRST_PROCS"
+								},
+								{
+									"Name": "IIP_PRST_USER"
+								},
+								{
+									"Name": "IIP_STG_OWNER"
+								},
+								{
+									"Name": "IIP_STG_PROCS"
+								},
+								{
+									"Name": "IIP_STG_USER"
+								},
+								{
+									"Name": "IIP_XMLSTG_OWNER"
+								},
+								{
+									"Name": "IIP_XMLSTG_PROCS"
+								},
+								{
+									"Name": "IIP_XMLSTG_PROCS"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD4806",
+							"Server": "roadster.am.lilly.com",
+							"Port":"1531",							
+							"Schema": [{
+									"Name": "IIP_ACCS_OWNER"
+								},
+								{
+									"Name": "IIP_ACCS_PROCS"
+								},
+								{
+									"Name": "IIP_ACCS_USER"
+								},
+								{
+									"Name": "IIP_ANALYTICAL_OWNER"
+								},
+								{
+									"Name": "IIP_ANALYTICAL_PROCS"
+								},
+								{
+									"Name": "IIP_ANALYTICAL_USER"
+								},
+								{
+									"Name": "IIP_CLRM_OWNER"
+								},
+								{
+									"Name": "IIP_CLRM_PROCS"
+								},
+								{
+									"Name": "IIP_CLRM_USER"
+								},
+								{
+									"Name": "IIP_MSTR_REF_OWNER"
+								},
+								{
+									"Name": "IIP_MSTR_REF_PROCS"
+								},
+								{
+									"Name": "IIP_MSTR_REF_USER"
+								},
+								{
+									"Name": "IIP_RBM_OWNER"
+								},
+								{
+									"Name": "IIP_RBM_PROCS"
+								},
+								{
+									"Name": "IIP_RBM_USER"
+								},
+								{
+									"Name": "IIP_SAM_OWNER"
+								},
+								{
+									"Name": "IIP_SAM_PROCS"
+								},
+								{
+									"Name": "IIP_SAM_USER"
+								},
+								{
+									"Name": "IIP_SDM_OWNER"
+								},
+								{
+									"Name": "IIP_SDM_PROCS"
+								},
+								{
+									"Name": "IIP_SDM_USER"
+								},
+								{
+									"Name": "IIP_SMPLC_OWNER"
+								},
+								{
+									"Name": "IIP_SMPLC_PROCS"
+								},
+								{
+									"Name": "IIP_SMPLC_USER"
+								},
+								{
+									"Name": "IIP_PIH_OWNER"
+								},
+								{
+									"Name": "IIP_PIH_PROCS"
+								},
+								{
+									"Name": "IIP_PIH_USER"
+								},
+								{
+									"Name": "IIP_ECOA_OWNER"
+								},
+								{
+									"Name": "IIP_ECOA_PROCS"
+								},
+								{
+									"Name": "IIP_ECOA_USER"
+								},
+								{
+									"Name": "IIP_ODM_OWNER"
+								},
+								{
+									"Name": "IIP_ODM_PROS"
+								},
+								{
+									"Name": "IIP_ODM_USER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD568",
+							"Server": "blackfoot.am.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "TRD_OWNER"
+								},
+								{
+									"Name": "FIN_OWNER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "PRD3650",
+							"Server": "jelxdb20.ap.lilly.com",
+							"Port":"1530",							
+							"Schema": [{
+									"Name": "ADT_OWNER"
+								},
+								{
+									"Name": "ADT_INF_USER"
+								},
+								{
+									"Name": "JCAE_OWNER"
+								},
+								{
+									"Name": "JCAE_INF_USER"
+								},
+								{
+									"Name": "JCAE_RPT_OWNER"
+								},
+								{
+									"Name": "JCAE_USER"
+								},
+								{
+									"Name": "JCOP_INF_USER"
+								},
+								{
+									"Name": "JCOP_STG_OWNER"
+								},
+								{
+									"Name": "JCOP_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_OWNER"
+								},
+								{
+									"Name": "JDWH_BO_USER"
+								},
+								{
+									"Name": "JDWH_CIL_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_OWNER"
+								},
+								{
+									"Name": "JDWH_CSP_INF_USER"
+								},
+								{
+									"Name": "JDWH_DRESS_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_INF_USER"
+								},
+								{
+									"Name": "JDWH_EVAL_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_INF_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_OWNER"
+								},
+								{
+									"Name": "JDWH_IKNOW_TBL_USER"
+								},
+								{
+									"Name": "JDWH_IKNOW_RPT_OWNER"
+								},
+								{
+									"Name": "JDWH_INF_USER"
+								},
+								{
+									"Name": "JDWH_JDP_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_INF_USER"
+								},
+								{
+									"Name": "JDWH_JLLP_PROCS"
+								},
+								{
+									"Name": "JDWH_MART_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_OWNER"
+								},
+								{
+									"Name": "JDWH_MDU_INF_USER"
+								},
+								{
+									"Name": "JDWH_OWNER"
+								},
+								{
+									"Name": "JDWH_PROCS"
+								},
+								{
+									"Name": "JDWH_RPA_OWNER"
+								},
+								{
+									"Name": "JDWH_SORP_INF_USER"
+								},
+								{
+									"Name": "JDWH_SORP_BO_USER"
+								},
+								{
+									"Name": "JDWH_SORP_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_INF_USER"
+								},
+								{
+									"Name": "JDWH_STG_OWNER"
+								},
+								{
+									"Name": "JDWH_STG_PROCS"
+								},
+								{
+									"Name": "JDWH_TBL_USER"
+								},
+								{
+									"Name": "JDWH_USER"
+								},
+								{
+									"Name": "JDWH_WSR_INF_USER"
+								},
+								{
+									"Name": "JDWH_WSR_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_INF_USER"
+								},
+								{
+									"Name": "JDWH_WTAS_OWNER"
+								},
+								{
+									"Name": "JDWH_WTAS_PROCS"
+								},
+								{
+									"Name": "JEDWH"
+								},
+								{
+									"Name": "WSRUSER"
+								}
+							],
+							"Type": "Oracle"
+						},
+						{
+							"Database": "prd1005",
+							"Server": "keoladeo.am.lilly.com",
+							"Port":"1531",
+							"Schema": [
+								{
+									"Name": "GCO_OWNER"
+								},
+								{
+									"Name": "GCO_OWNER2"
+								},
+								{
+									"Name": "GCO_OWNER3"
+								},
+								{
+									"Name": "GCO_OWNER4"
+								},
+								{
+									"Name": "ACT_OWNER"
+								},								
+								{
+									"Name": "GCO_PROCS"
+								},
+								{
+									"Name": "ADM_OWNER"
+								},
+								{
+									"Name": "ADM_PROCS"
+								},
+								{
+									"Name": "ADS_OWNER"
+								},
+								{
+									"Name": "ADS_PROCS"
+								},								
+								{
+									"Name": "AHS_OWNER"
+								},
+								{
+									"Name": "AHS_PROCS"
+								},
+								{
+									"Name": "ARS_OWNER"
+								},
+								{
+									"Name": "ARS_PROCS"
+								},
+								{
+									"Name": "GEO_OWNER"
+								},
+								{
+									"Name": "GEO_PROCS"
+								},								
+								{
+									"Name": "IDS_OWNER"
+								},
+								{
+									"Name": "IDS_PROCS"
+								},
+								{
+									"Name": "SUB_AODS_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER"
+								},
+								{
+									"Name": "AICT_OWNER_REP"
+								},
+								{
+									"Name": "GAIP_OWNER"
+								},
+								{
+									"Name": "AVA_OWNER"
+								},
+								{
+									"Name": "CMP_OWNER"
+								},
+								{
+									"Name": "ACT_ARC_OWNER"
+								},
+								{
+									"Name": "AMT_PROCS"
+								},
+								{
+									"Name": "AMT_OWNER"
+								},
+								{
+									"Name": "MTM_Owner"
+								},																
+								{
+									"Name": "MTM_ODS_OWNER"
+								},
+								{
+									"Name": "Idp_owner"
+								},
+								{
+									"Name": "Iva_owner"
+								},
+								{
+									"Name": "pds_owner"
+								}
+								
+							],
+							"Type": "Oracle"
+						}
+						
+						]
+					}
+					
+				]
+
+			}
+		]
+	}
+}

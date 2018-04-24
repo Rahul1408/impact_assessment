@@ -1,0 +1,377 @@
+.navbar-header{
+    margin-top: 2%;
+}
+.bg_header{
+      background: url('../image/header.jpg');
+}
+.bgBack{
+      background: url('../image/Background_old.jpg');
+      /*height: 530px;*/
+      background-repeat: no-repeat;
+      background-size: cover;
+      width:100%;
+      margin: 0;
+          padding-bottom: 4%;
+}
+/*section#login {
+     background: url('../images/IAT_Login-pageBG.png');
+    /*background: rgba(226, 221, 221, 0.51);
+    margin-left: 57%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    padding: 4%;
+    text-align: center;
+    
+    border: 5px solid #bad4d9;
+    background-repeat: no-repeat;
+     background-size: cover;
+
+}*/
+.login-box{
+    /*background: url('../images/IAT_Login-pageBG.png')  no-repeat;*/
+    background:rgba(212, 224, 242, 0.68);
+    padding: 5%;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #729ba2;
+    border:2px solid #729ba2;
+
+}
+#index{
+     background:rgba(212, 224, 242, 0.68);
+    padding: 5%;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 6px 6px 5px #729ba2;
+    border:2px solid #729ba2;
+    margin-top: 9%;
+
+}
+.login-box h1{
+    color: #06649a;
+}
+div#login {
+    float: right;
+    margin-top: 9%;
+    margin-right: 6%;
+}
+#login .form-group {
+    text-align: left;
+    margin-top: 5%;
+
+    font-size: 16px;
+    color: #2488aa;
+}
+input.btn_common {
+width: 117px;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 15px;
+    background: #349db8;
+    border: 1px solid #349db8;
+    font-size: 16px;
+    box-shadow: 0 5px #66c1d4;
+    outline: none;
+    color: #fff;
+}
+input.btn_common:hover {
+	
+    color: #fff;
+}
+input.btn_common:active {
+    outline:none;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.footer_section {
+      background: url('../image/header.jpg');
+	      
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_bottom {
+    border-top: 1px solid #333333;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer_bottom span {
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+.dropButtons {
+    text-align: center;
+    padding-left: 8%;
+}
+button#platform {
+    width: 67%;
+    box-shadow: 6px 6px 4px #729ba2;
+}
+button#env {
+    margin-left: -5%;
+    width: 79%;
+    box-shadow: 6px 6px 4px #729ba2;
+}
+button.btn.btn-info.dropdown-toggle {
+    box-shadow: 6px 6px 4px #729ba2;
+}
+.buttons.row {
+    margin-top: 2%;
+}
+#index label{
+    font-size: 16px;
+    color: #2488aa;
+}
+.dropdown-menu{
+    left:60px;
+}
+.marginTop12{
+    margin-top:15%;
+}
+input#searchKey {
+    margin-left: -11px;
+}
+
+select#ddl3 , select#ddl4, select#lstFolders,select#dbDropDwnLst,select#serverDropDwnLst,select#appDropDwnLst,select#lstFolders, button.multiselect.dropdown-toggle.btn.ddn_color{
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    box-shadow: 6px 6px 4px #729ba2;
+}
+option {
+    color: #2488aa;
+    background-color:#fff;
+}
+#LogoutButton {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #006666;
+}
+span.logout {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.logout img {
+    width: 17px;
+}
+#SearchBtn {
+    margin-top: 4%;
+    float: right;
+    margin-right: 4%;
+}
+.mandatory{
+    color: red;
+}
+.headingLabel{
+	font-size: 16px;
+    color: #2488aa;
+	font-weight:bold;
+}
+select#ddl4 {
+    margin-left: -13px;
+}
+#search span#keywordHeading {
+    padding-left: 4%;
+}
+ul.multiselect-container.dropdown-menu {
+    width: 130%;
+    height: 271px;
+}
+#search input#Txt2 {
+    margin-left: 7%;
+    margin-top: 3%;
+    width:84%;
+    box-shadow: 6px 6px 5px #729ba2;
+}
+#search{
+     background:rgba(212, 224, 242, 0.68);
+    padding: 5%;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 6px 6px 5px #729ba2;
+    border:2px solid #729ba2;
+    margin-top: 3%;
+
+}
+#search .dropdown-menu {
+    left: 0px;
+}
+#search select#ddl4 {
+    margin-left: 10%;
+}
+#schemaDrpdwnDiv button.multiselect.dropdown-toggle.btn.ddn_color {
+    margin-top: 2%;
+}input#btnSearch {
+    margin-top: 5%;
+    float: right;
+    margin-right: 5%;
+}
+ .modal-dialog {
+width:80%;
+}
+h4.modal-title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #296598;
+}
+.mydatagrid
+{
+	
+	border: solid 2px black;
+	width: 96%;
+    margin-left: 2%;
+    padding-bottom: 3%;
+    
+    overflow: auto;
+    height:460px;
+    min-height:300px;
+    
+}
+.header
+{
+	background-color: #000;
+	font-family: Arial;
+	color: White;
+	height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.rows
+{
+	background-color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	min-height: 25px;
+	text-align: left;
+}
+.rows:hover
+{
+	background-color: rgb(35,184,216);
+	color: #fff;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: rgb(35,184,216);
+	color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	background-color: #fff;
+	color: #000;
+	padding: 5px 5px 5px 5px;
+}
+.pager
+{
+	background-color: #5badff;
+	font-family: Arial;
+	color: White;
+	height: 30px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding: 5px;
+}
+.mydatagrid th
+{
+	padding: 5px;
+}
+th {
+    text-align:center;
+}
+img.back-img {
+    width: 5%;
+    margin-left: 3%;
+}
+@media only screen and (min-width:768px) and (max-width:1024px) and (orientation:portrait){
+	div#login {
+    float: left;
+    margin-top: 9%;
+    margin-left: 15%;
+}
+}
+@media only screen and (min-width:1500px) and (max-width:2000px){
+.dropButtons {
+    text-align: center;
+    padding-left: 15%;
+}
+}
+.error-image {
+    background-image: url("../image/Error.jpg");
+    background-repeat: no-repeat;
+    margin-left:30%;
+}
+#try_again{
+    margin-top:45%;
+    color: white;
+}
+#try_again a{
+    color:navy;
+}
+a.help-text {
+    margin-left: 1%;
+    font-size: 16px;
+    font-weight: bold;
+    float:right;
+    color:#fff;
+} 
+
+#authenticationPopup .modal-content {
+    width: 50%;
+    padding: 1%;
+    margin-left: 26%;
+    margin-top: 10%;
+}
+#informaticaAuthenticationPopup .modal-content {
+    width: 50%;
+    padding: 1%;
+    margin-left: 26%;
+    margin-top: 10%;
+}
+#ddl3 {
+margin-left:6px;
+}
+#schemaDrpdwnDiv button.multiselect.dropdown-toggle.btn.ddn_color {
+    margin-left: -6%;
+}
+select#serverDropDwnLst {
+    margin-left: 6%;
+}
+input#directoryText {
+    width: 84%;
+    box-shadow: 6px 6px 5px #729ba2;
+
+}
+span#dbContextHeading {
+    padding-left: 8%;
+}
+.loading
+        {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba( 255, 255, 255, .8 ) url('/scripts/image/pikfp.gif') 50% 50% no-repeat;
+        }
+  

@@ -1,0 +1,436 @@
+﻿body {
+    background-color:rgba(7, 119, 143, 0.18);
+}
+.main_container {
+    background-image: url('../image/background.jpg');
+    background-size: 100% 100%;
+}
+#mainNav {
+    background-image: url('../image/top_banner.jpg');
+    position:relative;
+}
+.white_bg {
+     /*background-image: url('../image/Search_page _bg.png');*/
+    
+ 
+    height: 350px;
+       
+  background-size: 100% 100%;
+}
+.dropdwn_panel {
+margin-top: 4%;
+}
+/*b.caret
+{
+border-top :15px dashed !important;
+border-right : 10px solid transparent !important;
+border-left : 10px solid transparent !important;
+}*/
+/*.background-image {
+    /*background-color: rgba(255,255,255,0.8);*/
+    /*background-image: url("../image/IAT_Login-pageBG.png");
+    position: absolute;
+    left: 7%;
+    top: -6%;
+    width: 93%;
+    height: 400px;
+        background-position-y:-200px;
+    margin-top:15%;
+   
+}*/
+
+.modal-body {
+padding : 0px !important;
+}
+.error-image {
+    background-image: url("/image/Error.jpg");
+    background-repeat: no-repeat;
+    margin-left:30%;
+}
+#try_again{
+    margin-top:45%;
+    color: white;
+}
+#try_again a{
+    color:navy;
+}
+#main_content{
+      z-index: 1;
+      padding-bottom: 60pt;
+      margin-top: 5pt;
+}
+.common_textbox{
+    background-color: rgb(27,38,44);
+    border: 1pt solid white;
+}
+.form-control {
+color: #FFF !important;
+}
+.label_color{
+    color:rgb(0,0,0);
+}
+.bg_custom {
+  
+}
+.grey_bg {
+        background-color: rgba(189, 196, 196, 0.37);
+        padding: 3%;
+        margin-right: 1%;
+        margin-left:1%;
+}
+
+.text_style {
+               text-align:center;
+               color:rgb(1,106,127);
+          /*     padding-bottom:3%;*/
+}
+input#UserEmail {
+    width: 80%;
+    height: 43px;
+    padding: 18px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+input.btn_common {
+    width: 117px;
+    padding: 10px;
+    background-size: contain;
+    border-radius: 15px;
+    background: #26a8d7;
+    border: 1px solid #26a8d7;
+    font-size: 20px;
+    box-shadow: 0 5px #a3badf;
+    outline: none;
+    color: #fff;
+}
+input.btn_common:hover {
+	background-color: #086c94;
+}
+input.btn_common:active {
+    background-color: #086c94;
+    box-shadow: none;
+    transform: translateY(4px);
+}
+.width{
+    width:150pt;
+}
+input#UserPass{
+	width: 80%;
+    height: 43px;
+    padding: 18px;
+    background-color: #fff;
+     border-radius:5px;
+}
+.labeltext{
+    /*background: url('../image/user.png');*/
+        font-size: 20px;
+    font-weight: bold;	
+}
+.labelPassword{
+	     /*background: url('../image/password.png');*/
+	         font-size: 20px;
+    font-weight: bold;
+}
+.custom_dropdown {
+    margin-bottom: 5%;
+    top: 0px;
+    left: -1px;
+    text-align: left;
+    width: 44%;
+    float: left;
+    margin-left: 33%;
+}
+.btn_bg_blue {
+    background-image:url('../image/blue_btn.jpg');
+    background-repeat: repeat-x;
+    border-radius: 0px;
+}
+.btn_row{
+    margin-top: 25pt;
+}
+.btn_row ,#btnSearch:hover ,#btnEmail:hover ,#btnReset:hover ,#btnExportToExcel:hover{
+    color: #FFF;
+}
+#dbDropDwnLst option {
+    background-color: white;
+}
+#serverDropDwnLst option {
+    background-color:white;
+}
+.dropdown-menu{left:auto !important;}
+.btn_style {
+outline: 0;
+padding : 0 10% 0 10%;
+}
+/*.ddn_arrow {
+    background-image:url('../image/New Design/dd_arrow.png');
+}*/
+.ddn_bg {
+     background: rgba(176,196,205,1);
+    background: -moz-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(176,196,205,1)), color-stop(100%, rgba(27,38,44,1)));
+    background: -webkit-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -o-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -ms-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,11) 100%);
+    background: linear-gradient(to bottom, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eaee8', endColorstr='#99daf0', GradientType=0 );
+    color: #FFF;
+    border-radius: 0px;
+    border: 1pt solid white;
+}
+.ddn_color {
+    /*background: rgba(114,174,232,1);*/
+    background: rgba(176,196,205,1);
+    background: -moz-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(176,196,205,1)), color-stop(100%, rgba(27,38,44,1)));
+    background: -webkit-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -o-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    background: -ms-linear-gradient(top, rgba(176,196,205,1) 0%, rgba(27,38,44,11) 100%);
+    background: linear-gradient(to bottom, rgba(176,196,205,1) 0%, rgba(27,38,44,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eaee8', endColorstr='#dfedf2', GradientType=0 );
+    color: #FFF;
+    border-radius: 0px;
+    color: #FFF;
+    border-radius: 0px;
+}
+.bgDanger {
+    color:red;
+}
+.btn_reset {
+     background-image:url('../image/green_btn.jpg');
+      border-radius: 0px;
+      background-repeat: repeat-x;
+border-radius: 0px;
+}
+/*Mobile css**/
+@media only screen and (max-width:767px) {
+    .tcs_logo {
+    width:100% !important;
+    }
+}
+.custom_dropdown h4 {
+    float: left;
+    width: 52%;
+}
+.custom_dropdown .dropdown {
+    margin-bottom: 10%;
+}
+
+.mydatagrid
+{
+	
+	border: solid 2px black;
+	width: 96%;
+    margin-left: 2%;
+    padding-bottom: 3%;
+    
+    overflow: auto;
+    height:460px;
+    min-height:300px;
+    
+}
+.header
+{
+	background-color: #000;
+	font-family: Arial;
+	color: White;
+	height: 25px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.rows
+{
+	background-color: #fff;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	min-height: 25px;
+	text-align: left;
+}
+.rows:hover
+{
+	background-color: rgb(35,184,216);
+	color: #fff;
+}
+
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+	background-color: Transparent;
+	padding: 5px 5px 5px 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+	background-color: rgb(35,184,216);
+	color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+	background-color: #fff;
+	color: #000;
+	padding: 5px 5px 5px 5px;
+}
+.pager
+{
+	background-color: #5badff;
+	font-family: Arial;
+	color: White;
+	height: 30px;
+	text-align: left;
+}
+
+.mydatagrid td
+{
+	padding: 5px;
+}
+.mydatagrid th
+{
+	padding: 5px;
+}
+th {
+    text-align:center;
+}
+#dbDrpdwnDiv {
+    padding-right:0px;
+}
+#dbDropDwnLst {
+padding:13px 43px;
+}
+select#ddl4  {
+    padding-bottom:6%;
+    padding-top:6%;
+}
+#UserEmail ,#UserPass {
+box-shadow: -2px 2px 8px 0px;
+    border: 0px;
+}
+.label_txt {
+font-size:18px !important;
+}
+.display_inline {
+display: inline !important;
+}
+img.tcs_logo.img-responsive {
+    margin-top: 3%;
+}
+select.minimal {
+    width:175pt;
+    color: #FFF;
+    border-radius: 0px;
+    border: 1pt solid white;
+  background-image:
+    linear-gradient(45deg, transparent 50%, red 50%),
+    linear-gradient(135deg, blue 50%, transparent 50%),
+    linear-gradient(to left, #ccc, #ccc)!; 
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  margin: 0;      
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /*background for select boxes
+    background: rgba(14,174,232,1);
+    background: -moz-linear-gradient(top, rgba(14,174,232,1) 0%, rgba(153,218,240,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14,174,232,1)), color-stop(100%, rgba(153,218,240,1)));
+    background: -webkit-linear-gradient(top, rgba(14,174,232,1) 0%, rgba(153,218,240,1) 100%);
+    background: -o-linear-gradient(top, rgba(14,174,232,1) 0%, rgba(153,218,240,1) 100%);
+    background: -ms-linear-gradient(top, rgba(14,174,232,1) 0%, rgba(153,218,240,1) 100%);
+    background: linear-gradient(to bottom, rgba(14,174,232,1) 0%, rgba(153,218,240,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0eaee8', endColorstr='#99daf0', GradientType=0 );*/
+}
+@media only screen and (min-width:320px) and (max-width: 667px) {
+	.custom_dropdown {
+    margin-bottom: 5%;
+    top: 0px;
+    left: -1px;
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-left: 31px;
+}
+.background-image {
+    left: -37%;
+    top: -10%;
+    width: 127%;
+    height: 624px;
+
+}
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+	.background-image {
+
+    position: absolute;
+    left: -8%;
+    top: -2%;
+    width: 93%;
+    height: 637px;
+}
+	}
+.back-img {
+    float: left;
+    height: 60px;
+    margin-left:2%;
+    width: auto;
+}
+.marginTop5 {
+margin-top:5%;
+}
+.marginTop2 {
+margin-top:2%;
+}
+span.logout {
+    float:right;
+    margin-right: 4%;
+}
+input#LogoutButton {
+    background: none;
+    border: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3a8cb2;
+}
+.marginTop1 {
+    margin-top: 1%;
+}
+.modal-dialog {
+width:80%;
+}
+h4.modal-title{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #296598;
+}
+.background-image.indexBg {
+    background-position-y: -316px;
+}
+.background-image.searchBg {
+    background-position-y: -281px;
+}
+/*.modal-footer {
+    margin-top: -18px;
+}*/
+.background-image {
+    background-image: url('../image/IAT_Login-pageBG.png');
+
+}
+#authenticationPopup .modal-content {
+    width: 50%;
+    padding: 1%;
+    margin-left: 26%;
+    margin-top: 10%;
+}
