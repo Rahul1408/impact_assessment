@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/ValueAddDemo_deploy" />
+  <setParameter name="strConnectionString-Web.config Connection String" value="Data Source=          (DESCRIPTION =              (ADDRESS_LIST =                  (ADDRESS =                      (HOST = comanche.am.lilly.com)                      (PROTOCOL = TCP) (PORT = 1530)                 )              )              (CONNECT_DATA = (SID = prd154)             )         ) ;User Id=pls_user;Password=Temp_9889;Persist Security Info=True;" />
+</parameters>
