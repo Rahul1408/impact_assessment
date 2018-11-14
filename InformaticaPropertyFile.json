@@ -1,0 +1,256 @@
+﻿{
+	"root": {
+		"Environment": [{
+				"Name": "Dev",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [{
+								"Database": "dev100",
+								"Server": "weatherby.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team2",
+						"Details": [{
+								"Database": "dev438",
+								"Server": "weatherby.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team3",
+						"Details": [{
+								"Database": "dev1999",
+								"Server": "yorh36.ema.lilly.com",
+								"Port": "1526",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team4",
+						"Details": [{
+								"Database": "buit-pcrs-dev",
+								"Server": "omaha01.am.lilly.com",
+								"Port": "6005",
+								"Schema": [{
+									"Name": "buit-dom-prd"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team5",
+						"Details": [{
+								"Database": "dev101",
+								"Server": "weatherby.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team6",
+						"Details": [{
+								"Database": "DEV680",
+								"Server": "glory.am.lilly.com",
+								"Port": "1536",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team7",
+						"Details": [{
+								"Database": "dev2806",
+								"Server": "dino.am.lilly.com",
+								"Port": "1531",
+								"Schema": [{
+									"Name": "inf10_dev_pcrepo"
+								}]
+							}
+
+						]
+					}
+
+				]
+
+			},
+			{
+				"Name": "QA",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [ {
+								"Database": "qar100",
+								"Server": "accumark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_qa_pcrepo"
+								}]
+
+							}
+
+						]
+					},
+					{
+						"Name": "Team2",
+						"Details": [ {
+								"Database": "qar101",
+								"Server": "accumark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_qa_pcrepo"
+								}]
+
+							}
+
+						]
+					},
+					{
+						"Name": "Team3",
+						"Details": [{
+								"Database": "qar438",
+								"Server": "accumark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_qar_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team4",
+						"Details": [{
+								"Database": "TST680",
+								"Server": "flame.am.lilly.com",
+								"Port": "1542",
+								"Schema": [{
+									"Name": "inf10_tst_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team5",
+						"Details": [{
+								"Database": "qar1999",
+								"Server": "yorh37.ema.lilly.com",
+								"Port": "1526",
+								"Schema": [{
+									"Name": "inf10_qar_pcrepo"
+								}]
+							}
+
+						]
+					}
+				]
+
+			},
+			{
+				"Name": "Prod",
+				"Team": [{
+						"Name": "Team1",
+						"Details": [{
+								"Database": "prd100",
+								"Server": "lazermark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_prd_pcrepo"
+								}]
+							}
+
+						]
+					}, {
+						"Name": "Team2",
+						"Details": [{
+								"Database": "prd101",
+								"Server": "lazermark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_prd_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team3",
+						"Details": [{
+								"Database": "prd438",
+								"Server": "lazermark.am.lilly.com",
+								"Port": "1530",
+								"Schema": [{
+									"Name": "inf10_prd_pcrepo"
+								}]
+							}
+
+						]
+					},
+					{
+						"Name": "Team4",
+						"Details": [{
+								"Database": "PRD2806",
+								"Server": "laferrari.am.lilly.com",
+								"Port": "1531",
+              "Schema": [
+                {
+                  "Name": "inf10_prd_pcrepo"
+                }
+                //{
+                //  "Name": "INF_PRD_PCREPO"
+                //},
+                //{
+                //  "Name": "INF10_PRD_MODEL"
+                //},
+                // {
+								//	"Name": "INF10_PRD_DOMAIN"
+								//}
+              
+              ]
+							}
+
+						]
+					},
+					{
+						"Name": "Team5",
+						"Details": [{
+								"Database": "prd1999",
+								"Server": "yorh39.ema.lilly.com",
+								"Port": "1526",
+								"Schema": [{
+									"Name": "inf10_prd_pcrepo"
+								}]
+							}
+
+						]
+					}
+
+				]
+
+			}
+		]
+	}
+}
