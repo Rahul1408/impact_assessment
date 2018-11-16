@@ -218,17 +218,7 @@
               "Schema": [
                 {
                   "Name": "inf10_prd_pcrepo"
-                }
-                //{
-                //  "Name": "INF_PRD_PCREPO"
-                //},
-                //{
-                //  "Name": "INF10_PRD_MODEL"
-                //},
-                // {
-								//	"Name": "INF10_PRD_DOMAIN"
-								//}
-              
+                }                             
               ]
 							}
 
