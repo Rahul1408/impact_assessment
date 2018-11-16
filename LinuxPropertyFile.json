@@ -92,7 +92,7 @@
 							"ApplicationDetails": [
 									{
 										"Name": "MedSAD",
-										"Paths": ["/mdf/mdfdev/agr/sub/bin/","/mdf/mdfdev/ctr/sub/bin/","/mdf/mdfdev/cts/pub/bin/","/mdf/mdfdev/SCMA/sub/","/mdf/mdfdev/ect/sub/bin/","/mdf/mdfdev/mlp/sub/bin/","/mdf/mdfdev/cro/pub/bin/","/mdf/mdfdev/utl/tool/bin/","/mdf/mdfdev/scripts","/mdf/mdfdev/rpt/sub/bin/","/mdf/mdfdev/rpt/pub/bin/","/mdf/mdfdev/aer/sub/bin/","/mdf/mdfdev/erd/err/bin","/appdata/saddev/gds/scripts/","/appdata/saddev/mdf/scripts/sub/ctm_monitoring/","/appdata/saddev/mdf/scripts/sub/"]
+										"Paths": ["/mdf/mdfdev/agr/sub/bin/","/mdf/mdfdev/agr/sub/bin/","/mdf/mdfdev/ctr/sub/bin/","/mdf/mdfdev/cts/pub/bin/","/mdf/mdfdev/SCMA/sub/","/mdf/mdfdev/ect/sub/bin/","/mdf/mdfdev/mlp/sub/bin/","/mdf/mdfdev/cro/pub/bin/","/mdf/mdfdev/utl/tool/bin/","/mdf/mdfdev/scripts/","/mdf/mdfdev/rpt/sub/bin/","/mdf/mdfdev/rpt/pub/bin/","/mdf/mdfdev/aer/sub/bin/","/mdf/mdfdev/aer/sub/bin/","/mdf/mdfdev/aer/sub/bin/","/mdf/mdfdev/erd/err/bin/","/appdata/saddev/gds/scripts/","/appdata/saddev/gds/scripts/","/appdata/saddev/mdf/scripts/sub/ctm_monitoring/","appdata/saddev/mdf/scripts/sub/"]
 									}
 								]
 
@@ -207,7 +207,7 @@
 							"ApplicationDetails": [
 									{
 										"Name": "MedSAD",
-										"Paths": ["/mdf/mdfdev/agr/sub/bin/","/mdf/mdfdev/ctr/sub/bin/","/mdf/mdfdev/cts/pub/bin/","/mdf/mdfdev/SCMA/sub/","/mdf/mdfdev/ect/sub/bin/","/mdf/mdfdev/mlp/sub/bin/","/mdf/mdfdev/cro/pub/bin/","/mdf/mdfdev/utl/tool/bin/","/mdf/mdfdev/scripts","/mdf/mdfdev/rpt/sub/bin/","/mdf/mdfdev/rpt/pub/bin/","/mdf/mdfdev/aer/sub/bin/","/mdf/mdfdev/erd/err/bin","/appdata/saddev/gds/scripts/","/appdata/saddev/mdf/scripts/sub/","/mdf/mdftst/mdf_error/","/mdf/mdftst/workflow/"]
+										"Paths": ["/mdf/mdftst/agr/sub/bin/","/mdf/mdftst/ctr/sub/bin/","/mdf/mdftst/cts/pub/bin/","/mdf/mdftst/SCMA/sub/","/mdf/mdftst/ect/sub/bin/","/mdf/mdftst/mlp/sub/bin/","/mdf/mdftst/cro/pub/bin/","/mdf/mdftst/utl/tool/bin/","/mdf/mdftst/scripts/","/mdf/mdftst/rpt/sub/bin/","/mdf/mdftst/rpt/pub/bin/","/mdf/mdftst/aer1/sub/bin/","/mdf/mdftst/aer1/sub/bin/","/mdf/mdftst/aer1/sub/bin/","/mdf/mdftst/orp/bin/","/mdf/mdftst/amt/sub/bin/","/mdf/mdftst/erd/err/bin/","/mdf/mdftst/mdf_error/","/mdf/mdftst/workflow/","/appdata/sadtst/gds/scripts/","/appdata/sadtst/gds/scripts/","/appdata/sadtst/mdf/scripts/sub/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/ects_cron/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/Daily_4AM/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/Daily_6AM/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/every_77th_day/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/twice_a_day/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/weekly_refresh/bin/","/appdata/sadtst/mdf/scripts/sub/DBA_jobs/TRANS/bi/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/Daily_730PM/bin/","/appdata/sadtst/mdf/scripts/pub/DBA_jobs/Daily_CT_USER/bin/"]
 									}
 								]
 
