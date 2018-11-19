@@ -2708,55 +2708,100 @@
 							],
 							"Type": "Oracle"
 						},
-						{
-							"Database": "PRD3806",
-							"Server": "vanquish.am.lilly.com",
-							"Port":"1531",							
+              {
+                "Database": "PRD3806",
+                "Server": "vanquish.am.lilly.com",
+                "Port": "1531",
+                "Schema": [
+                  {
+                    "Name": "IIP_ETL_OWNER"
+                  },
+                  {
+                    "Name": "IIP_ETL_PROCS"
+                  },
+                  {
+                    "Name": "IIP_ETL_USER"
+                  },
+                  {
+                    "Name": "IIP_ODS_OWNER"
+                  },
+                  {
+                    "Name": "IIP_ODS_PROCS"
+                  },
+                  {
+                    "Name": "IIP_ODS_USER"
+                  },
+                  {
+                    "Name": "IIP_PRST_OWNER"
+                  },
+                  {
+                    "Name": "IIP_PRST_PROCS"
+                  },
+                  {
+                    "Name": "IIP_PRST_USER"
+                  },
+                  {
+                    "Name": "IIP_STG_OWNER"
+                  },
+                  {
+                    "Name": "IIP_STG_PROCS"
+                  },
+                  {
+                    "Name": "IIP_STG_USER"
+                  },
+                  {
+                    "Name": "IIP_XMLSTG_OWNER"
+                  },
+                  {
+                    "Name": "IIP_XMLSTG_PROCS"
+                  },
+                  {
+                    "Name": "IIP_XMLSTG_PROCS"
+                  }
+                ],
+                "Type": "Oracle"
+              },
+              {
+							"Database": "prd201",
+							"Server": "lhprd201.am.lilly.com",
+							"Port":"1526",							
 							"Schema": [{
-									"Name": "IIP_ETL_OWNER"
+									"Name": "MDF_INF_PROCS"
 								},
 								{
-									"Name": "IIP_ETL_PROCS"
+									"Name": "MDF_PROCS"
 								},
 								{
-									"Name": "IIP_ETL_USER"
+									"Name": "MDF_SS_OWNER"
 								},
 								{
-									"Name": "IIP_ODS_OWNER"
+									"Name": "MDF_PUB_OWNER"
 								},
 								{
-									"Name": "IIP_ODS_PROCS"
+									"Name": "MDF_OWNER"
 								},
 								{
-									"Name": "IIP_ODS_USER"
+									"Name": "MDF_P2P_PROCS"
 								},
 								{
-									"Name": "IIP_PRST_OWNER"
+									"Name": "QLIK_USER"
 								},
 								{
-									"Name": "IIP_PRST_PROCS"
+									"Name": "ECTS_SS_OWNER"
 								},
 								{
-									"Name": "IIP_PRST_USER"
+									"Name": "AMT_OWNER"
 								},
 								{
-									"Name": "IIP_STG_OWNER"
+									"Name": "AMT_USER"
 								},
 								{
-									"Name": "IIP_STG_PROCS"
+									"Name": "CT_USER"
 								},
 								{
-									"Name": "IIP_STG_USER"
-								},
-								{
-									"Name": "IIP_XMLSTG_OWNER"
-								},
-								{
-									"Name": "IIP_XMLSTG_PROCS"
-								},
-								{
-									"Name": "IIP_XMLSTG_PROCS"
+									"Name": "ESM_SQL"
 								}
+								
 							],
 							"Type": "Oracle"
 						},

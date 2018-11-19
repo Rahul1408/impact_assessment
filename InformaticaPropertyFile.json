@@ -196,20 +196,23 @@
 
 						]
 					},
-					{
-						"Name": "Team3",
-						"Details": [{
-								"Database": "prd438",
-								"Server": "lazermark.am.lilly.com",
-								"Port": "1530",
-								"Schema": [{
-									"Name": "inf10_prd_pcrepo"
-								}]
-							}
+          {
+            "Name": "Team3",
+            "Details": [
+              {
+                "Database": "prd438",
+                "Server": "lazermark.am.lilly.com",
+                "Port": "1530",
+                "Schema": [
+                  {
+                    "Name": "inf10_prd_pcrepo"
+                  }
+                ]
+              }
 
-						]
-					},
-					{
+            ]
+          },
+          {
 						"Name": "Team4",
 						"Details": [{
 								"Database": "PRD2806",
@@ -226,6 +229,21 @@
 					},
 					{
 						"Name": "Team5",
+						"Details": [{
+								"Database": "PRD680",
+								"Server": "arum.am.lilly.com",
+								"Port": "1535",
+              "Schema": [
+                {
+                  "Name": "inf10_prd_pcrepo"
+                }                             
+              ]
+							}
+
+						]
+					},
+					{
+						"Name": "Team6",
 						"Details": [{
 								"Database": "prd1999",
 								"Server": "yorh39.ema.lilly.com",

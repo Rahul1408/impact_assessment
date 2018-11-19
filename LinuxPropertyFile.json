@@ -347,130 +347,153 @@
 				"Name": "Prod",
 				"Team": [{
 						"Name": "Team1",
-						"ServerDetails": [{
-								"Name": "gssinfprd",
-								"ApplicationDetails": [{
-										"Name": "Activity",
-										"Paths": ["/cntlm_prod/mkt/scripts/act", "/scripts/tva/trns", "/scripts/tva/act", "/mkt/act/email/scripts/src", "/mkt/act/email/scripts/tva", "/cntlm_prod/mkt/scripts/act/survey", "/appdata/srvyprd/srvy/scripts"]
-									},
-									{
-										"Name": "CODS",
-										"Paths": ["/scripts/tva/gco/", "/cntlm_prod/mkt/scripts/gco/", "/scripts/tva/vc/", "/parms/tva/vc", "/mkt/mtm/scripts", "mkt/mtm/parms", "/Parms/tva/gco", "/cntlm_prod/mkt/scripts/idp", "/cntlm_prod/mkt/parms/idp"]
-									},
-									{
-										"Name": "Alignment",
-										"Paths": ["/cntlm_prod/mkt/scripts/ads", "/cntlm_prod/mkt/scripts/adm", "/cntlm_prod/mkt/scripts/ids", "/cntlm_prod/mkt/scripts/ids/ads", "/mkt/ads/parms/", "/mkt/adm/parms/", "/mkt/ids/parms/", "/home/mktschd0/"]
-									},
-									{
-										"Name": "Mercury",
-										"Paths": ["/mkt/gso1/scripts"]
-									},
-									{
-										"Name": "AMT",
-										"Paths": ["/mkt/amt/scripts/", "/mkt/amt/parms/"]
-									},
-									{
-										"Name": "Veeva Interface",
-										"Paths": ["/mkt/crml1", "/mkt/crmcn", "/mkt/crml5", "/mkt/crml3", "/mkt/crml6", "/mkt/crml4", "/mkt/crml1/inbound", "/mkt/crml1/parms", "/mkt/crmcn/parms", "/mkt/crml5/parms", "/mkt/crml3/parms", "/mkt/crml6/parms", "/mkt/crml4/parms", "/mkt/crml1/scripts/wa", "/mkt/crmcn/scripts", "/mkt/crml5/scripts", "/mkt/crml3/scripts", "/mkt/crml6/scripts", "/mkt/crml4/scripts"]
-									},
-									{
-										"Name": "Commercial Analytics",
-										"Paths": ["/cntlm_prod/mkt/scripts/tpo/AICT", "/cntlm_prod/mkt/parms/tpo/AICT", "/cntlm_prod/mkt/scripts/tpo/LF", "/cntlm_prod/mkt/parms/tpo/LF", "/cntlm_prod/mkt/parms/tpo/ET", "/cntlm_prod/mkt/scripts/tpo/ET", "/cntlm_prod/mkt/scripts/tpo/T2I", "/cntlm_prod/mkt/parms/tpo/T2I", "/cntlm_prod/mkt/scripts/tpo/VVPMINF", "/cntlm_prod/mkt/parms/tpo/VVPMINF", "/cntlm_prod/mkt/scripts/tpo/LT", "/cntlm_prod/mkt/parms/tpo/LT"]
-									},
-									{
-									"Name": "GCCP",
-									"Paths": ["/scripts/gccp","/parms/gccp","/logs/gccp","/data/gccp"]
-								}
-								]
-							},
-							{
-								"Name": "omaha01",
-								"ApplicationDetails": [{
-										"Name": "ACEBUIT",
-										"Paths": ["/mkt/casrp/scripts", "/mkt/FR_SMPL/scripts"]
-									},
-									{
-										"Name": "BUSS COE",
-										"Paths": ["/cntlm_prod/mkt/scripts/b2b_rpt", "/cntlm_prod/mkt/scripts/imany", "/cntlm_prod/mkt/scripts/sbo", "/mkt/pap/scripts"]
-									},
-									{
-										"Name": "MHS Analytics",
-										"Paths": ["/cntlm_prod/mkt/scripts/b2b_whse/trade/","/cntlm_prod/mkt/scripts/b2b_whse/sap/"]
-									}
-								]
-
-							},							
-							{
-								"Name": "omaha02",
-								"ApplicationDetails": [
-									{
-										"Name": "MHS Analytics",
-										"Paths": ["/cntlm_prod/mkt/scripts/b2b_whse/trade/","/cntlm_prod/mkt/scripts/b2b_whse/sap/"]
-									}
-								]
-
-							},
-							{
-								"Name": "yorhinfprd",
-								"ApplicationDetails": [{
-									"Name": "ACEBUIT",
-									"Paths": ["/appdata/ukcopprd/ukcop/scripts", "/appdata/msolprd/msol/scripts"]
-								}]
-
-							},
-							{
-								"Name": "afslnxp01",
+          "ServerDetails": [
+            {
+              "Name": "gssinfprd",
+              "ApplicationDetails": [
+                {
+                  "Name": "Activity",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/act", "/scripts/tva/trns", "/scripts/tva/act", "/mkt/act/email/scripts/src", "/mkt/act/email/scripts/tva", "/cntlm_prod/mkt/scripts/act/survey", "/appdata/srvyprd/srvy/scripts" ]
+                },
+                {
+                  "Name": "CODS",
+                  "Paths": [ "/scripts/tva/gco/", "/cntlm_prod/mkt/scripts/gco/", "/scripts/tva/vc/", "/parms/tva/vc", "/mkt/mtm/scripts", "mkt/mtm/parms", "/Parms/tva/gco", "/cntlm_prod/mkt/scripts/idp", "/cntlm_prod/mkt/parms/idp" ]
+                },
+                {
+                  "Name": "Alignment",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/ads", "/cntlm_prod/mkt/scripts/adm", "/cntlm_prod/mkt/scripts/ids", "/cntlm_prod/mkt/scripts/ids/ads", "/mkt/ads/parms/", "/mkt/adm/parms/", "/mkt/ids/parms/", "/home/mktschd0/" ]
+                },
+                {
+                  "Name": "Mercury",
+                  "Paths": [ "/mkt/gso1/scripts" ]
+                },
+                {
+                  "Name": "AMT",
+                  "Paths": [ "/mkt/amt/scripts/", "/mkt/amt/parms/" ]
+                },
+                {
+                  "Name": "Veeva Interface",
+                  "Paths": [ "/mkt/crml1", "/mkt/crmcn", "/mkt/crml5", "/mkt/crml3", "/mkt/crml6", "/mkt/crml4", "/mkt/crml1/inbound", "/mkt/crml1/parms", "/mkt/crmcn/parms", "/mkt/crml5/parms", "/mkt/crml3/parms", "/mkt/crml6/parms", "/mkt/crml4/parms", "/mkt/crml1/scripts/wa", "/mkt/crmcn/scripts", "/mkt/crml5/scripts", "/mkt/crml3/scripts", "/mkt/crml6/scripts", "/mkt/crml4/scripts" ]
+                },
+                {
+                  "Name": "Commercial Analytics",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/tpo/AICT", "/cntlm_prod/mkt/parms/tpo/AICT", "/cntlm_prod/mkt/scripts/tpo/LF", "/cntlm_prod/mkt/parms/tpo/LF", "/cntlm_prod/mkt/parms/tpo/ET", "/cntlm_prod/mkt/scripts/tpo/ET", "/cntlm_prod/mkt/scripts/tpo/T2I", "/cntlm_prod/mkt/parms/tpo/T2I", "/cntlm_prod/mkt/scripts/tpo/VVPMINF", "/cntlm_prod/mkt/parms/tpo/VVPMINF", "/cntlm_prod/mkt/scripts/tpo/LT", "/cntlm_prod/mkt/parms/tpo/LT" ]
+                },
+                {
+                  "Name": "GCCP",
+                  "Paths": [ "/scripts/gccp", "/parms/gccp", "/logs/gccp", "/data/gccp" ]
+                }
+              ]
+            },
+            {
+								"Name": "mditinfprd",
 							"ApplicationDetails": [
 									{
-										"Name": "IRIS MARKETING",
-										"Paths": ["/iris/mktg/scripts/"]
-									},
-									{
-										"Name": "BRAND RECOMMENDER",
-										"Paths": ["/iris/mktg/scripts/"]
-									},
-									{
-										"Name": "IRIS",
-										"Paths": ["/iris/mktg/scripts/","/iris/di/scripts/","/iris/di/parms/","/iris/di/inbound/","/iris/adq/scripts/"]
-									},
-									{
-										"Name": "IRIS DevOps",
-										"Paths": ["/iris/di/scripts","/iris/mktg/scripts","/iris/spclty/scripts","/iris/afl/scripts/","/iris/adq/scripts/","/iris/asl/scripts/","/iris/pr/scripts/","/iris/dbu/scripts/","/iris/adm_cbr/scripts/","/iris/adm_val/scripts/","/iris/obu/scripts/","/iris/adm_sca/scripts/"]
+										"Name": "MedSAD",
+										"Paths": ["/mdf/scripts/pub/","/mdf/scripts/pub/DBA_jobs/Daily_4AM/bin/","/mdf/scripts/pub/DBA_jobs/Daily_730PM/bin/","/mdf/scripts/pub/DBA_jobs/ects_cron/bin/","/mdf/scripts/pub/DBA_jobs/twice_a_day/bin/","/mdf/scripts/pub/DBA_jobs/Daily_6AM/bin/","/mdf/scripts/pub/DBA_jobs/Daily_CT_USER/bin/","/mdf/scripts/pub/DBA_jobs/every_77th_day/bin/","/mdf/scripts/pub/DBA_jobs/weekly_refresh/bin/","/mdf/scripts/pub/ctman/bin/","/mdf/scripts/sub/","/mdf/scripts/sub/cfit/bin/","/mdf/scripts/sub/IEP/bin/","/mdf/scripts/sub/DBA_jobs/TRANS/bin/","/mdf/mdfprd/agr/sub/bin/","/mdf/mdfprd/ctr/sub/bin/","/mdf/mdfprd/ccm/sub/bin/","/mdf/mdfprd/cts/pub/bin/","/mdf/mdfprd/SCMA/sub/","/mdf/mdfprd/ect/sub/bin/","/mdf/mdfprd/ctf/sub/bin/","/mdf/mdfprd/mlp/sub/bin/","/mdf/mdfprd/cro/pub/bin/","/mdf/mdfprd/cro/sub/bin/","/mdf/mdfprd/utl/tool/bin/","/mdf/mdfprd/erd/err/bin/","/mdf/mdfprd/scripts/","/mdf/mdfprd/ctm/pub/bin/","/mdf/mdfprd/ctm/pub/bin/","/mdf/mdfprd/rpt/sub/bin/","/mdf/mdfprd/rpt/pub/bin/","/mdf/mdfprd/aer1/sub/bin/","/mdf/mdfprd/aer1/sub/bin/","/mdf/mdfprd/aer1/sub/bin/","/mdf/mdfprd/ctm/pub/bin/","/mdf/mdfprd/cfit/sub/bin/","/mdf/mdfprd/orp/bin/","/mdf/mdfprd/amt/sub/bin/","/mdf/mdfprd/mdf_error/","/mdf/mdfprd/workflow/","/mdf/mdfprd/erd/err/bin/"]
 									}
 								]
 
 							},
-							{
-								"Name": "GRIDPMGR01",
-								"ApplicationDetails": [{
-									"Name": "BUSS COE",
-									"Paths": ["/sasfs/data/us_sharedSalesSvcs/prd/mkt/VenExt/scripts", "/sasfs/data/us_sharedSalesSvcs/prd/cntlm_prod/mkt/scripts/govt3rd"]
-								}]
-							},
-							{
-								"Name": "Pawnee",
-								"ApplicationDetails": [{
-									"Name": "BUSS COE",
-									"Paths": ["/cntlm_prod/mkt/scripts/b2b_rpt", "/cntlm_prod/mkt/scripts/imany"]
-								}]
+            {
+              "Name": "omaha01",
+              "ApplicationDetails": [
+                {
+                  "Name": "ACEBUIT",
+                  "Paths": [ "/mkt/casrp/scripts", "/mkt/FR_SMPL/scripts" ]
+                },
+                {
+                  "Name": "BUSS COE",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/b2b_rpt", "/cntlm_prod/mkt/scripts/imany", "/cntlm_prod/mkt/scripts/sbo", "/mkt/pap/scripts" ]
+                },
+                {
+                  "Name": "MHS Analytics",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/b2b_whse/trade/", "/cntlm_prod/mkt/scripts/b2b_whse/sap/" ]
+                }
+              ]
 
-							},
-							{
-								"Name": "ihinfprd01",
-								"ApplicationDetails": [{
-									"Name": "iipprd",
+            },
+            {
+              "Name": "omaha02",
+              "ApplicationDetails": [
+                {
+                  "Name": "MHS Analytics",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/b2b_whse/trade/", "/cntlm_prod/mkt/scripts/b2b_whse/sap/" ]
+                }
+              ]
+
+            },
+            {
+              "Name": "yorhinfprd",
+              "ApplicationDetails": [
+                {
+                  "Name": "ACEBUIT",
+                  "Paths": [ "/appdata/ukcopprd/ukcop/scripts", "/appdata/msolprd/msol/scripts" ]
+                }
+              ]
+
+            },
+            {
+              "Name": "afslnxp01",
+              "ApplicationDetails": [
+                {
+                  "Name": "IRIS MARKETING",
+                  "Paths": [ "/iris/mktg/scripts/" ]
+                },
+                {
+                  "Name": "BRAND RECOMMENDER",
+                  "Paths": [ "/iris/mktg/scripts/" ]
+                },
+                {
+                  "Name": "IRIS",
+                  "Paths": [ "/iris/mktg/scripts/", "/iris/di/scripts/", "/iris/di/parms/", "/iris/di/inbound/", "/iris/adq/scripts/" ]
+                },
+                {
+                  "Name": "IRIS DevOps",
+                  "Paths": [ "/iris/di/scripts", "/iris/mktg/scripts", "/iris/spclty/scripts", "/iris/afl/scripts/", "/iris/adq/scripts/", "/iris/asl/scripts/", "/iris/pr/scripts/", "/iris/dbu/scripts/", "/iris/adm_cbr/scripts/", "/iris/adm_val/scripts/", "/iris/obu/scripts/", "/iris/adm_sca/scripts/" ]
+                }
+              ]
+
+            },
+            {
+              "Name": "GRIDPMGR01",
+              "ApplicationDetails": [
+                {
+                  "Name": "BUSS COE",
+                  "Paths": [ "/sasfs/data/us_sharedSalesSvcs/prd/mkt/VenExt/scripts", "/sasfs/data/us_sharedSalesSvcs/prd/cntlm_prod/mkt/scripts/govt3rd" ]
+                }
+              ]
+            },
+            {
+              "Name": "Pawnee",
+              "ApplicationDetails": [
+                {
+                  "Name": "BUSS COE",
+                  "Paths": [ "/cntlm_prod/mkt/scripts/b2b_rpt", "/cntlm_prod/mkt/scripts/imany" ]
+                }
+              ]
+
+            },
+            {
+              "Name": "ihinfprd01",
+              "ApplicationDetails": [
+                {
+                  "Name": "iipprd",
                   "Paths": [ "/appdata/iipprd/iip_prd_r2/Scripts", "/appdata/iipprd/iip_prd_r2/iip_access/scripts", "/appdata/iipprd/iip_prd_r2/iip_access/scripts/eCOA_MART", "/appdata/iipprd/iip_prd_r2/iip_ingest/ALSC/scripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/ALSC", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/CLRM/ODSScripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/DSE", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/eCOA", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/MEDSAD", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/ODSScripts/R2_scripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/PIH", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/RAVE/ODSScripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/SD/ODSScripts", "/appdata/iipprd/iip_prd_r2/iip_ingest/scripts/XFER/R2_scripts", "/appdata/iipprd/iip_prd_r2/iip_smplc/scripts", "/appdata/iipprd/iip_prd_r2/iip_persist", "/appdata/iipprd/iip_prd_r2/iip_ingest", "/appdata/iipprd/iip_prd_r2/iip_access", "/appdata/iipprd/iip_prd_r2/iip_smplc" ]
-								}]
+                }
+              ]
 
-							},
-							{
-								"Name": "SHOSHONE",
-								"ApplicationDetails": [{
-									"Name": "BUSS COE",
-									"Paths": ["/od/gp/working/batch/"]
-								}]
-							}
-						]
+            },
+            {
+              "Name": "SHOSHONE",
+              "ApplicationDetails": [
+                {
+                  "Name": "BUSS COE",
+                  "Paths": [ "/od/gp/working/batch/" ]
+                }
+              ]
+            }
+          ]
 					},
 					{
 						"Name": "Team2",
