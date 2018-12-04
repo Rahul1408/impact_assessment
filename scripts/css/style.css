@@ -180,6 +180,7 @@ select#ddl4 {
 ul.multiselect-container.dropdown-menu {
     width: 130%;
     height: 271px;
+    overflow: auto !important;
 }
 #search input#Txt2 {
     margin-left: 7%;
