@@ -151,7 +151,7 @@
         }
         function emailClick() {
             var txt;
-            var person = prompt("Please enter your Email address:", "example@network.lilly.com");
+            var person = prompt("Please enter your Email address:", "example@example.com");
             if (person != null && person != "") {
                 $(".hiddenNameField").val(person);
             }
